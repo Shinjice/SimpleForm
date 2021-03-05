@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+      body {
+        background: #00587a;
+      }
+      .form-box {
+        max-width: 500px;
+        margin: auto;
+        padding: 50px;
+        background: #00587a;
+        border: 10px solid #ffffff;  
+      }
+      h1, p {
+        text-align: center;
+        color: #ffffff;
+      }
+      input, textarea {
+        width: 100%; 
+      }
+      label {
+        color: #ffffff;
+      }
+      .btn-primary {
+        background-color: #ff5e78 !important;
+        font-weight: bold;
+        border-color: #ffffff !important;
+      }
+      .btn-primary:hover {
+          color: #fff;
+          background-color: #ff005c !important;
+          border-color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+        <div class="form-box">
+          <h1>Contact formulier</h1>
+          <p>Vul uw gegevens in en we nemen zo snel contact met u op!</p>
+          <form>
+            <div class="form-group">
+              <label for="naam">Naam</label>
+              <input class="form-control" id="naam" type="text" name="naam" placeholder="Vul hier uw naam in">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input class="form-control" id="email" type="email" name="Email" placeholder="Vul hier uw email in">
+            </div>
+            <div class="form-group">
+              <label for="bericht" >Bericht</label>
+              <textarea class="form-control" id="bericht" name="bericht" placeholder="Type hier uw bericht"></textarea>
+            </div>
+            <div>
+              <input class="btn btn-primary" type="submit" value="Verstuur"/>
+            </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
